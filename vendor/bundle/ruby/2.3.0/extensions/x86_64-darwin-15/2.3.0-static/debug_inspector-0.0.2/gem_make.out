@@ -1,0 +1,15 @@
+current directory: /Users/ichiokanatsumi/workspace/r_portfolio/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+/Users/ichiokanatsumi/.anyenv/envs/rbenv/versions/2.3.0/bin/ruby -r ./siteconf20170412-53244-1r9u9cl.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ichiokanatsumi/workspace/r_portfolio/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/ichiokanatsumi/workspace/r_portfolio/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/ichiokanatsumi/workspace/r_portfolio/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20170412-53244-1uwhjcq
