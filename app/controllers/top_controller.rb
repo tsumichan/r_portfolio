@@ -5,7 +5,7 @@ class TopController < ApplicationController
   def love
   end
 
-  def products
+  def product
   end
 
   def activity
