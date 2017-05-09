@@ -1,0 +1,19 @@
+.container, .row {
+  width: 100%;
+  margin: 0;
+  padding:0;
+}
+
+.main {
+  width: 100%;
+  height: 1500px;
+  background-size: cover;
+  background-image:  url("colour__.png");
+  background-attachment: fixed;
+  display: block;
+  margin: 0 auto;
+
+  h1 {
+    text-align: center;
+  }
+}
