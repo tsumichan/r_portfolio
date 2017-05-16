@@ -102,8 +102,9 @@
   display: block;
   margin: auto;
   margin-bottom: 50px;
-
 }
+
+//love, product, activity
 
 .love_main, .product_main, .activity_main {
   background-color: #ffeeb0;
@@ -123,5 +124,22 @@
 
   .main_contents {
     margin: 200px;
+    margin-bottom: 150px;
+  }
+}
+.contents_box {
+  margin: 0 auto;
+}
+.contents_list {
+  list-style: none;
+  li {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin: 20px;
+
+    a {
+      display: block;
+    }
   }
 }
