@@ -1,3 +1,9 @@
+
+
+
+
+// application.html
+
 .container, .row {
   width: 100%;
   margin: 0;
@@ -6,7 +12,7 @@
 
 .navbar-header {
   position: absolute;
-  z-index: 2;
+  z-index: 999;
   position: fixed !important; //IE6以下に指定する
   top: 0;
   left: 0;
@@ -20,36 +26,41 @@
     :hover {
       background-color: #BDBDBD;
     }
-    li {
-      list-style: none;
-      padding: 20px 30px;
 
-      a {
-        color: #FFF;
-        text-decoration: none;
+    a {
+      color: #FFF;
+      text-decoration: none;
+
+      li {
+        display: inline-block;
+        list-style: none;
+        padding: 20px 30px;
       }
+
     }
   }
 }
 .main {
   width: 100%;
-  height: 1500px;
+  height: auto;
   background-size: cover;
   background-image:  url("colour__.png");
   background-attachment: fixed;
   display: block;
-  margin: 0 auto;
+  position: relative;
 
   h1 {
     text-align: center;
     color: #FFF;
+  }
+  p {
+    text-align: center;
   }
   .main_icon {
     border-radius: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
   }
 
   .main_contents {
@@ -57,16 +68,60 @@
   }
 }
 
-.contents_menu {
-  position: absolute;
-  z-index: 1;
+.about_me {
   width: 100%;
-  height: 300px;
+  height: 600px;
   background-color: #FFF;
   opacity: 0.9;
-  // display: box;
-  // box-pack: justify;
   h1 {
     color: #36465d;
+    margin: 20px;
+  }
+}
+
+
+.contents_menu {
+  margin: 200px 0;
+  list-style: none;
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+
+  li {
+    display: table-cell;
+    vertical-align: middle;
+
+    a {
+      text-align: justify;
+    }
+  }
+}
+
+.contents_main_icon {
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+
+}
+
+.love_main, .product_main, .activity_main {
+  background-color: #ffeeb0;
+  h1 {
+    text-align: center;
+    color: #0c224a;
+  }
+  p {
+    text-align: center;
+  }
+  .main_icon {
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main_contents {
+    margin: 200px;
   }
 }
