@@ -1,8 +1,8 @@
 
-
-
-
 // application.html
+h1 {
+  font-size: 3em;
+}
 
 .container, .row {
   width: 100%;
@@ -44,7 +44,7 @@
   width: 100%;
   height: auto;
   background-size: cover;
-  background-image:  url("colour__.png");
+  background-image:  url("top.jpg");
   background-attachment: fixed;
   display: block;
   position: relative;
@@ -75,7 +75,8 @@
   opacity: 0.9;
   h1 {
     color: #36465d;
-    margin: 20px;
+    margin: 50px;
+    padding: 50px;
   }
 }
 
