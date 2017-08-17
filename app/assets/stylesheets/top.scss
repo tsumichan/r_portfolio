@@ -1,12 +1,14 @@
+//  font ========================================
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 
 body {
-    font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  padding-top: 50px;
 }
 
+//  public ========================================
 
-// application.html
 h1 {
   font-size: 3em;
 }
@@ -17,45 +19,35 @@ h1 {
   padding:0;
 }
 
-.navbar-header {
-  position: absolute;
-  z-index: 999;
-  position: fixed !important; //IE6以下に指定する
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #36465d;
-  color: #fff;
-  opacity:0.9;
-
-  .head_nav {
-    :hover {
-      background-color: #BDBDBD;
-    }
-
-    a {
-      color: #FFF;
-      text-decoration: none;
-
-      li {
-        display: inline-block;
-        list-style: none;
-        padding: 20px 30px;
-      }
-
-    }
-  }
+//  header ======================================
+.navbar {
+  margin: 0;
+  border-radius: 0;
 }
+
+.navbar-default {
+  border: none;
+  box-shadow: none;
+  background-image: none;
+  background-color: #36465d; //紺色
+  opacity: 0.9;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: #f2f7fd;
+}
+
+//  main ==========================================
 .main {
   width: 100%;
   height: auto;
   background-size: cover;
   background-image:  url("top.jpg");
   background-attachment: fixed;
-  h1 {
-    // text-align: center;
-    color: #FFF;
-  }
   p {
     text-align: center;
   }
@@ -92,7 +84,7 @@ h1 {
 
 
 }
-
+//  about_me ====================================
 .about_me {
   width: 100%;
   height: 600px;
@@ -130,13 +122,7 @@ h1 {
   }
 }
 
-.contents_main_icon {
-  display: block;
-  margin: auto;
-  margin-bottom: 50px;
-}
-
-//love, product, activity
+//  love.html, product.html, activity.html ================
 
 .love_main, .product_main, .activity_main {
   background-color: #ffeeb0;
