@@ -1,15 +1,14 @@
 <div class="row main">
   <div class="main_contents">
-    <h1>Welcome to Tsumi's Portfolio!</h1>
+      <h1>Welcome to Tsumi's Portfolio!</h1>
     <div class="contents_icon_1 col-sm-6">
       <a href="#about_me"><%= image_tag "cat_icon.jpg", class: "main_icon", size: "100x100" %></a>
-      <a href="<%= love_path %>"><%= image_tag "love.png", class: "love", size: "100x100" %></a>
       <a href="<%= product_path %>"><%= image_tag "products.png", class: "products", size: "100x100" %></a>
+      <a href="https://tsuuumi.tumblr.com/" target="_blank"><%= image_tag "tumblr.png", class: "tumblr", size: "105x105" %></a>
     </div>
     <div class="contents_icon_2 col-sm-12">
       <a href="http://tmicha.hateblo.jp/" target="_blank"><%= image_tag "blog.png", class: "activities", size: "100x100" %></a>
       <a href="https://github.com/tsuuumi" target="_blank"><%= image_tag "github.png", class: "github", size: "100x100" %></a>
-      <a href="https://tsuuumi.tumblr.com/" target="_blank"><%= image_tag "tumblr.png", class: "tumblr", size: "105x105" %></a>
     </div>
   </div>
 
@@ -18,25 +17,19 @@
   <div class="about_me" id="about_me">
     <h1>About me</h1>
     <div class="col-sm-12 col-md-5 col-lg-5">
-      <%= image_tag "cat_icon.jpg", class: "main_icon", size: "200x200" %>
+      <%= image_tag "cat_icon.jpg", class: "about_me_thumbnail", size: "200x200" %>
     </div>
-    <div class="col-sm-12 col-md-7 col-lg-7 ">
-      <p>2018年、法政大学社会学部卒。
+    <div class="col-sm-12 col-md-7 col-lg-7">
+      <p>2018年 法政大学社会学部卒。
         <br>
         ゼミでは「経験のデザイン」をテーマに研究をしており、 <br>
         毎年チームになってメディアコンテンツを企画・制作しています。<br>
         <br>
         小さい頃から手を動かしてモノを作ることが大好きで、 <br>
         大学生になってからWebサイトを作ったことがきっかけでWebが大好きになりました。<br>
-        <br>
-        その権威は国民に由来し、その権力は国民の代表者が
+        現在はRuby on RailsでWebサービスを作っています。<br>
+        お寿司と猫と布団が好き。
       </p>
     </div>
-
   </div>
-  <ul class="col-md-12 col-lg-12 contents_menu">
-    <li><a href="<%= love_path %>"><%= image_tag "love.png", class: "", size: "200x200" %></a></li>
-    <li><a href="<%= product_path %>"><%= image_tag "products.png", class: "", size: "200x200" %></a></li>
-    <li><a href="<%= activity_path %>"><%= image_tag "activities.png", class: "", size: "200x200" %></a></li>
-  </ul>
 </div>
