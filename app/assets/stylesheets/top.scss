@@ -131,6 +131,7 @@ h1 {
 }
 
 .about_me_thumbnail {
+  display: block;
   margin-right: auto;
   margin-left: auto;
 }
@@ -176,6 +177,7 @@ h1 {
 
 .contents_box {
   display: block;
+  margin-bottom: 100px;
 }
 
 .contents_list {
@@ -243,4 +245,11 @@ figure p {
 }
 #contents_box figure:hover figcaption {
   opacity: 1;
+}
+.ofton_twitter {
+  display: inline !important;
+  border-bottom: 1px solid;
+}
+.neko {
+  opacity: 0;
 }
